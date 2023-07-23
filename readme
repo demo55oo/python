@@ -1,0 +1,36 @@
+Sure! Here's a quick README file to explain the functionality of the `script.py` Python script:
+
+# JSON to SQLite Converter
+
+This Python script (`script.py`) converts JSON data to an SQLite database and saves it as `sqlite.db`.
+
+## Getting Started
+
+1. Make sure you have Python 3 installed on your system.
+
+2. Install the required libraries `pandas` and `sqlite3` by running the following commands:
+```
+pip install pandas
+pip install pysqlite3
+```
+
+3. Place your JSON file in the same directory as `script.py` and name it `input.json`. If your JSON file has a different name, modify the `json_file_path` variable in the `script.py` file accordingly.
+
+## Usage
+
+1. Run the script by executing the following command in the terminal:
+```
+python script.py
+```
+
+2. The script will read the JSON data from the `input.json` file, convert it to an SQLite database using the `pandas` and `sqlite3` libraries, and save it as `sqlite.db` in the same directory.
+
+3. Once the script finishes execution, you will find the `sqlite.db` file in the same directory, containing the converted SQLite database.
+
+## Note
+
+This script does not require any external web server or Flask app to convert JSON to SQLite. It directly performs the conversion and saves the SQLite database file locally.
+
+Please make sure you have the necessary permissions to read and write files in the directory where the script is executed.
+
+That's it! You can now use the `script.py` script to easily convert JSON data to an SQLite database. If you encounter any issues or have any questions, feel free to reach out for assistance. Happy converting!
